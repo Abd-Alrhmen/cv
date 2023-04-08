@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.element {
+    background-color: #28223f;
+    height: 657px;
+    width: 1018px;
+    text-align: center;
+    position: relative;
+
+}
+.element-one {
+    width: 300px;
+    height: 500px;
+    background-color: #231e39;
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    margin-left: 359px; 
+    border-radius: 10px;
+}
+.pro {
+    text-align: center;
+    width: 50px;
+    background-color: #ffbb0b;
+    position: absolute;
+    top: 11px;
+    font-weight: bolder;
+    font-size: larger;
+    left: 11px;
+    border-radius: 4px;
+}
+.skills {
+    position: absolute;
+    top: 4px;
+    left: 11px;
+}
+
+
+.element-tow {
+    height: 123px;
+    width: 100%;
+    position: absolute;
+    background-color: #1f1a36;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+    padding-top: 31px;
+    padding-bottom: 16px;
+    color: #a0a4ba;
+    border-radius: 10px;
+   
+
+}
+.element-tow p {
+    border: 2px solid #2a2444;
+    margin: 4px 18px;
+    height: 25px;
+    padding-top: 3px;
+}
+.doo {
+    position: absolute;
+    left: 71px;
+    top: 271px;
+    font-weight: bold;
+    color: #abafc5;
+}
+.Message {
+    left: -22px;
+    background-color: #03bfcb;
+    bottom: -45px;
+    width: 87px;
+    height: 33px;
+    position: absolute;
+    border: 2px solid #286f82;
+}
+.following {
+    background-color: #231e39;
+    bottom: -45px;
+    width: 87px;
+    height: 33px;
+    left: 101px;
+    position: absolute;
+    border: 2px solid #0bb9c6;
+    color: #187488;
+}
+img{
+    width: 202px;
+    height: 202px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 99;
+    left: 22%;
+    top: 14px;
+    border: 2px solid #287789;
+    padding: 4px;
+}
+h1 {
+    position: absolute;
+    top: 221px;
+    left: 46px;
+    color: #abafc5;
+}
+
